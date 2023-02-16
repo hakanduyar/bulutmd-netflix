@@ -1,0 +1,42 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  align-items: center;
+  background-color: #000;
+  color: white;
+  height: 50px;
+}
+
+.navbar-right,
+.navbar-left {
+  margin: 0 2rem;
+  padding: 0 1rem;
+}
+
+.navbar-left h1 {
+  font-weight: 300;
+  margin-left: 3rem;
+}
+
+.start-trial {
+  padding: 0.5rem 0.75rem;
+  background: #f00;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.start-trial:hover {
+  background: rgb(129, 4, 4);
+}
+
+.login {
+  padding: 0.5rem 0.75rem;
+  cursor: pointer;
+  background-color: #000;
+  color: white;
+  font-size: 16px;
+}
