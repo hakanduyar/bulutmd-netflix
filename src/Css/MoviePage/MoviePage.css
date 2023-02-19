@@ -1,0 +1,26 @@
+.serch {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 6rem;
+}
+
+.serch-input {
+  width: 100%;
+}
+
+.serch-input input {
+  width: 35%;
+  padding: 0.5rem 1.5rem;
+  outline: none;
+  border-radius: 0.5rem;
+  border: solid 0.5px gray;
+  text-align: left;
+}
+
+.dropdown {
+  background: white !important;
+  color: black !important;
+  font-weight: lighter !important;
+  border-color: gray !important;
+  width: 160px !important;
+}

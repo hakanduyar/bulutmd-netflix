@@ -5,6 +5,7 @@ import SubTitle from "../Component/Subtitle/SubTitle";
 import "../Css/Container/Container.css";
 import "../Css/SubTitle/Subtitle.css";
 import HomePage from "../Pages/HomePage/HomePage";
+import MoviePage from "../Pages/MoviePage/MoviePage";
 
 function Container() {
   return (
@@ -14,6 +15,7 @@ function Container() {
         <SubTitle />
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/Film" element={<MoviePage />} />
         </Routes>
       </div>
     </div>
