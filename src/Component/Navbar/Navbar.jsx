@@ -2,7 +2,7 @@ import React from "react";
 import "../../Css/Navbar/Navbar.css";
 function Navbar() {
   return (
-    <div className="navbar">
+    <div className="_navbar">
       <div className="navbar-left">
         <h1>BulutMD</h1>
       </div>

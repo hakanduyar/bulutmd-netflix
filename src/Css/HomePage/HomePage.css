@@ -1,0 +1,9 @@
+.home-page-grid {
+  margin: 3rem;
+}
+
+.home-page-card-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 2rem;
+}

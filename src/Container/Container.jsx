@@ -4,13 +4,17 @@ import Navbar from "../Component/Navbar/Navbar";
 import SubTitle from "../Component/Subtitle/SubTitle";
 import "../Css/Container/Container.css";
 import "../Css/SubTitle/Subtitle.css";
+import HomePage from "../Pages/HomePage/HomePage";
 
 function Container() {
   return (
     <div>
       <Navbar />
-      <div className="container">
+      <div className="_container">
         <SubTitle />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+        </Routes>
       </div>
     </div>
   );

@@ -1,3 +1,4 @@
-.container {
+._container {
+  box-sizing: none;
   margin-top: 50px;
 }
