@@ -1,11 +1,15 @@
 import React from "react";
 import Dropdown from "react-bootstrap/Dropdown";
 
-function MoviePageSerch() {
+function MoviePageSerch({ setSearch }) {
   return (
     <div className="serch">
       <div className="serch-input">
-        <input type="text" placeholder="Film/Dizi/Oyuncu ara" />
+        <input
+          onChange={(e) => setSearch(e.target.value)}
+          type="text"
+          placeholder="Film/Dizi/Oyuncu ara"
+        />
       </div>
       <div className="serch-dropdown">
         <Dropdown>
